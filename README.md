@@ -51,11 +51,8 @@ Music streaming platforms generate large volumes of structured data that describ
 ```text
   Spotify-adv-analysis-python
     │
-    ├── charts/                   # Visualizations generated from analysis
     ├── data/                     # Dataset
     │     ├── dataset.csv
-    ├── insights/                 # Detailed written analysis
-    │     ├── insights.md
     ├── notebook/                 # Jupyter notebook containing the full EDA
     ├── README.md
 ```
@@ -67,7 +64,8 @@ Music streaming platforms generate large volumes of structured data that describ
 - Python:
     - Pandas
     - NumPy
-    - Matplotlib
+    - Matplotlib (& seaborn)
+    - scikitlearn (& statsmodel)
 - Jupyter Notebook
 
 ---
@@ -75,7 +73,3 @@ Music streaming platforms generate large volumes of structured data that describ
 # Full Notebook
 
 The complete analysis with code and visualizations is available in the `spotify_eda.ipynb` notebook inside the folder 📂 `notebook`.
-
-# Insights
-The complete analytical insight derived from Spotify `dataset.csv` is available in `insights.md` file inside the folder 📂 `insights`.
-Happy reading!
